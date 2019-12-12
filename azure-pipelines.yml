@@ -28,5 +28,6 @@ steps:
     npm install mkdirp --save-dev
     npm install cucumber-expressions --save-dev
     npm install nightwatch-cucumber-editor --save-dev
+    npm install --save-dev nightwatch-api
     npm run -- test features/Globo.feature
   displayName: 'npm install and build'
