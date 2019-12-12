@@ -19,6 +19,6 @@ steps:
     rm -rf node_modules
     npm install
     npm fund
-    npm install nightwatch --save-dev
+    npm install nightwatch
     npm run -- test features/Globo.feature
   displayName: 'npm install and build'
