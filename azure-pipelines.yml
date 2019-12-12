@@ -18,6 +18,7 @@ steps:
 - script: |
     npm install
     rm -rf node_modules
+    npm install
     npm install nightwatch --save-dev
     npm install chromedriver --save-dev
     npm install cucumber --save-dev
@@ -28,5 +29,6 @@ steps:
     npm install nightwatch-api --save-dev
     npm install cucumber-expressions --save-dev
     npm install nightwatch-cucumber-editor --save-dev
+    npm install
     npm run -- test features/Globo.feature
   displayName: 'npm install and build'
