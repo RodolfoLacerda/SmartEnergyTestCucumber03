@@ -26,7 +26,6 @@ steps:
     npm install cucumber-pretty --save-dev
     npm install faker --save-dev
     npm install mkdirp --save-dev
-    npm install nightwatch-api --save-dev
     npm install cucumber-expressions --save-dev
     npm install nightwatch-cucumber-editor --save-dev
     npm run -- test features/Globo.feature
