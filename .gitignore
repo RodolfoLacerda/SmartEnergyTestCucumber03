@@ -1,0 +1,8 @@
+
+output
+backup
+*.log
+.DS_Store
+screenshots
+report
+chromedriver.log
